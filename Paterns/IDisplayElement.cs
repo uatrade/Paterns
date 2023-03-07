@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Paterns.Observer
+namespace Observer_Patern
 {
-    internal class Observer
+    public interface IDisplayElement
     {
+        public void Display();
     }
 }
